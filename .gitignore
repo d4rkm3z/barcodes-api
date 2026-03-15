@@ -3,3 +3,4 @@
 
 # configuration
 config.toml
+.env

@@ -1,0 +1,10 @@
+[package]
+name = "code-scanner-api"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+toml = "1.0.6+spec-1.1.0"
+actix-web = "4"
+serde = { version = "1.0", features = ["derive"] }
+sea-orm = { version = "2.0.0-rc", features = ["sqlx-postgres", "runtime-tokio-native-tls", "macros", "mock", "with-json", "with-uuid", "postgres-vector", "postgres-array"] }
